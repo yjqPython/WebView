@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hellow</title>
+</head>
+<body>
+{% if video_list %}
+{% for video in video_list%}
+<div style="width:500px;height:300px;position: relative;float: left;">
+    <div style="width:500px;height:300px;overflow: hidden;"><img src="{{video[3]}}"/></div>
+    <div style="background: #000;opacity: 0.6;color:#fff;width: 100%;height:60px;position: absolute;bottom: 0px;left: 0px;">{{video[2]}}
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<h1>未找到视频信息</h1>
+{% endif %}
+
+<!--<div style="width:500px;height:300px;position: relative;float: left;">-->
+    <!--<div style="width:500px;height:300px;overflow: hidden;"><img src="http://upload.ct.youth.cn/2014/1116/1416098866995.jpg"/></div>-->
+    <!--<div style="background: #000;opacity: 0.6;color:#fff;width: 100%;height:60px;position: absolute;bottom: 0px;left: 0px;">ssssssssssssssssssssss-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div style="width:500px;height:300px;position: relative;float: left;">-->
+    <!--<div style="width:500px;height:300px;overflow: hidden;"><img src="http://upload.ct.youth.cn/2014/1116/1416098866995.jpg"/></div>-->
+    <!--<div style="background: #000;opacity: 0.6;color:#fff;width: 100%;height:60px;position: absolute;bottom: 0px;left: 0px;">ssssssssssssssssssssss-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div style="width:500px;height:300px;position: relative;float: left;">-->
+    <!--<div style="width:500px;height:300px;overflow: hidden;"><img src="http://upload.ct.youth.cn/2014/1116/1416098866995.jpg"/></div>-->
+    <!--<div style="background: #000;opacity: 0.6;color:#fff;width: 100%;height:60px;position: absolute;bottom: 0px;left: 0px;">ssssssssssssssssssssss-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div style="width:500px;height:300px;position: relative;float: left;">-->
+    <!--<div style="width:500px;height:300px;overflow: hidden;"><img src="http://upload.ct.youth.cn/2014/1116/1416098866995.jpg"/></div>-->
+    <!--<div style="background: #000;opacity: 0.6;color:#fff;width: 100%;height:60px;position: absolute;bottom: 0px;left: 0px;">ssssssssssssssssssssss-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div style="width:500px;height:300px;position: relative;float: left;">-->
+    <!--<div style="width:500px;height:300px;overflow: hidden;"><img src="http://upload.ct.youth.cn/2014/1116/1416098866995.jpg"/></div>-->
+    <!--<div style="background: #000;opacity: 0.6;color:#fff;width: 100%;height:60px;position: absolute;bottom: 0px;left: 0px;">ssssssssssssssssssssss-->
+    <!--</div>-->
+<!--</div>-->
+</body>
+</html>
